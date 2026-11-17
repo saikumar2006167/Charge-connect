@@ -1,0 +1,20 @@
+import axios from "axios";
+
+const API = "http://localhost:5000/auth";
+
+export async function sendOTP(email) {
+  const res = await axios.post(`${API}/send-otp`, {
+    email,
+  });
+
+  return res.data;
+}
+
+export async function verifyOTP(email, otp) {
+  const res = await axios.post(`${API}/verify-otp`, {
+    email,
+    otp,
+  });
+
+  return res.data;
+}

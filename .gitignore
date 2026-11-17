@@ -1,0 +1,13 @@
+
+node_modules/
+dist/
+build/
+.env
+.env.*
+!.env.example
+
+backend/config/*firebase-adminsdk*.json
+backend/config/*service-account*.json
+backend.zip
+backend/config/*firebase-adminsdk*.json
+backend/config/*service-account*.json
