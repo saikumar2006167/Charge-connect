@@ -1,11 +1,13 @@
-const { initializeApp, cert } = require("firebase-admin/app");
+const { initializeApp, cert, getApps } = require("firebase-admin/app");
 const { getFirestore } = require("firebase-admin/firestore");
 
-const serviceAccount = require("./config/chargeconnect-8e36f-firebase-adminsdk-fbsvc-5f33d8a999.json");
+const serviceAccount = require("./config/firebase-service-account.json");
 
-initializeApp({
-  credential: cert(serviceAccount),
-});
+if (!getApps().length) {
+  initializeApp({
+    credential: cert(serviceAccount),
+  });
+}
 
 const db = getFirestore();
 
