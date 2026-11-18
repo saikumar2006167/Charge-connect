@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "https://charge-connect.onrender.com0/payment";
+const API = "https://charge-connect.onrender.com/payment";
 
 export async function createOrder(amount) {
   const res = await axios.post(`${API}/create-order`, {

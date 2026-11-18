@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "https://charge-connect.onrender.com0/auth";
+const API = "https://charge-connect.onrender.com/auth";
 
 export async function sendOTP(email) {
   const res = await axios.post(`${API}/send-otp`, {

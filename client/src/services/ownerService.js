@@ -1,4 +1,4 @@
-const API = "https://charge-connect.onrender.com0/api/station-owner";
+const API = "https://charge-connect.onrender.com/api/station-owner";
 
 // Register
 
