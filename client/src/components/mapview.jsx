@@ -2,10 +2,10 @@ import { useEffect, useState } from "react";
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "../firebase";
 
-import RoutePlanner from "./RoutePlanner";
-import RouteStats from "./RouteStats";
-import RouteStations from "./RouteStations";
-import EVMap from "./EVMap";
+import RoutePlanner from "./routeplanner";
+import RouteStations from "./routestations";
+import RouteStats from "./routestats";
+import EVMap from "./evmap";
 
 import { searchPlace, getRoute } from "../services/ors";
 import * as turf from "@turf/turf";

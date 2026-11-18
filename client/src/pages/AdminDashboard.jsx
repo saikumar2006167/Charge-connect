@@ -1,7 +1,7 @@
 import { onAuthStateChanged, signOut } from "firebase/auth";
 import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import FoodManagement from "../components/FoodManagement";
+import Foodmanagement from "./Components/Foodmanagement";
 import EntertainmentManagement from "./EntertainmentManagement";
 import {
   collection,
@@ -451,7 +451,7 @@ export default function AdminDashboard() {
 
           {activeMenu === "Food Management" ? (
 
-            <FoodManagement />
+            <Foodmanagement />
 
           ) : activeMenu === "Entertainment" ? (
 
