@@ -54,7 +54,7 @@ export default function AdminDashboard() {
       setError("");
 
       const response = await fetch(
-        "https://charge-connect.onrender.com0/admin/dashboard"
+        "https://charge-connect.onrender.com/admin/dashboard"
       );
 
       if (!response.ok) {
@@ -1358,7 +1358,7 @@ export default function AdminDashboard() {
                           try {
 
                             const response = await fetch(
-                              `https://charge-connect.onrender.com0/admin/mechanics/${mechanic.id}`,
+                              `https://charge-connect.https://charge-connect.onrender.com/admin/mechanics/${mechanic.id}`,
                               {
                                 method: "DELETE",
                               }

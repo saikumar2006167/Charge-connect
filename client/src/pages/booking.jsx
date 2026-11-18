@@ -103,7 +103,7 @@ export default function Booking() {
         setFoodLoading(true);
 
         const response = await fetch(
-          "https://charge-connect.onrender.com0/foods"
+          "https://charge-connect.https://charge-connect.onrender.com/foods"
         );
 
         if (!response.ok) {
