@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:5000";
+const API = "https://charge-connect.onrender.com0";
 
 export const getStations = async () => {
   const res = await axios.get(`${API}/stations`);

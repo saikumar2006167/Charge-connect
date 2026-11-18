@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:5000/bookings";
+const API = "https://charge-connect.onrender.com0/bookings";
 
 export const addBooking = async (data) => {
   const res = await axios.post(API, data);

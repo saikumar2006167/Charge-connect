@@ -54,7 +54,7 @@ export default function AdminDashboard() {
       setError("");
 
       const response = await fetch(
-        "http://localhost:5000/admin/dashboard"
+        "https://charge-connect.onrender.com0/admin/dashboard"
       );
 
       if (!response.ok) {
@@ -176,7 +176,7 @@ export default function AdminDashboard() {
   const handleApproveOwner = async (ownerId) => {
     try {
       const response = await fetch(
-        `http://localhost:5000/admin/station-owners/${ownerId}/approve`,
+        `https://charge-connect.onrender.com0/admin/station-owners/${ownerId}/approve`,
         {
           method: "PUT",
         }
@@ -1358,7 +1358,7 @@ export default function AdminDashboard() {
                           try {
 
                             const response = await fetch(
-                              `http://localhost:5000/admin/mechanics/${mechanic.id}`,
+                              `https://charge-connect.onrender.com0/admin/mechanics/${mechanic.id}`,
                               {
                                 method: "DELETE",
                               }
@@ -4426,7 +4426,7 @@ export default function AdminDashboard() {
       const updateStatus = async (id, status) => {
         try {
           const response = await fetch(
-            `http://localhost:5000/emergency/requests/${id}`,
+            `https://charge-connect.onrender.com0/emergency/requests/${id}`,
             {
               method: "PUT",
               headers: {

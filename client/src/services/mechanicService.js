@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:5000/mechanics";
+const API = "https://charge-connect.onrender.com0/mechanics";
 
 export async function getMechanics() {
   const res = await axios.get(API);

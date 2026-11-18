@@ -103,7 +103,7 @@ export default function Booking() {
         setFoodLoading(true);
 
         const response = await fetch(
-          "http://localhost:5000/foods"
+          "https://charge-connect.onrender.com0/foods"
         );
 
         if (!response.ok) {
@@ -148,7 +148,7 @@ export default function Booking() {
         setEntertainmentLoading(true);
 
         const response = await fetch(
-          "http://localhost:5000/entertainment"
+          "https://charge-connect.onrender.com0/entertainment"
         );
 
         if (!response.ok) {

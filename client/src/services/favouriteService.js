@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:5000/favourites";
+const API = "https://charge-connect.onrender.com0/favourites";
 
 export const addFavourite = async (data) => {
   const res = await axios.post(API, data);
