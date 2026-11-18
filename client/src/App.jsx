@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import EntertainmentManagement from "./pages/EntertainmentManagement";
 import Food from "./pages/Food";
-import Home from "./pages/Home";
-import Stations from "./pages/Stations";
-import Booking from "./pages/Booking";
-import Login from "./pages/Login";
-import Register from "./pages/Register";
+import Stations from "./pages/stations";
+import Booking from "./pages/booking";
+import Login from "./pages/login";
+import Register from "./pages/register";
+import Home from "./pages/home";
 import Profile from "./pages/Profile";
 import MyBookings from "./pages/mybookings";
 import History from "./pages/history";
