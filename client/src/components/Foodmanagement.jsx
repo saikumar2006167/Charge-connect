@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const API = "https://charge-connect.onrender.com0/foods";
+const API = "https://charge-connect.onrender.com/foods";
 
 export default function FoodManagement() {
   const [foods, setFoods] = useState([]);
