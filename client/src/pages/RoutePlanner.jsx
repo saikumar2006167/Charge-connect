@@ -1,4 +1,4 @@
-import MapView from "./components/mapview";
+import MapView from "../components/mapview";
 
 export default function RoutePlanner() {
   return (
