@@ -1,7 +1,7 @@
 import { onAuthStateChanged, signOut } from "firebase/auth";
 import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import Foodmanagement from "./Components/Foodmanagement";
+import Foodmanagement from "./components/Foodmanagement";
 import EntertainmentManagement from "./EntertainmentManagement";
 import {
   collection,
