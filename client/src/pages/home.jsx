@@ -1,6 +1,6 @@
-import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
-import MapView from "../components/MapView";
+import Navbar from "../components/navbar";
+import Hero from "../components/hero";
+import MapView from "../components/mapview";
 
 export default function Home() {
   return (
