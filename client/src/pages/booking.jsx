@@ -148,7 +148,7 @@ export default function Booking() {
         setEntertainmentLoading(true);
 
         const response = await fetch(
-          "https://charge-connect.onrender.com0/entertainment"
+          "https://charge-connect.onrender.com/entertainment"
         );
 
         if (!response.ok) {

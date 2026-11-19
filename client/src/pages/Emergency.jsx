@@ -66,7 +66,7 @@ export default function Emergency() {
       };
 
       const response = await fetch(
-        "https://charge-connect.onrender.com0/emergency/request",
+        "https://charge-connect.onrender.com/emergency/request",
         {
           method: "POST",
           headers: {

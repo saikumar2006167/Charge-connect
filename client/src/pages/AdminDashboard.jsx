@@ -176,7 +176,7 @@ export default function AdminDashboard() {
   const handleApproveOwner = async (ownerId) => {
     try {
       const response = await fetch(
-        `https://charge-connect.onrender.com0/admin/station-owners/${ownerId}/approve`,
+        `https://charge-connect.onrender.com/admin/station-owners/${ownerId}/approve`,
         {
           method: "PUT",
         }
@@ -4426,7 +4426,7 @@ export default function AdminDashboard() {
       const updateStatus = async (id, status) => {
         try {
           const response = await fetch(
-            `https://charge-connect.onrender.com0/emergency/requests/${id}`,
+            `https://charge-connect.onrender.com/emergency/requests/${id}`,
             {
               method: "PUT",
               headers: {
